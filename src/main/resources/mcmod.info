@@ -1,0 +1,16 @@
+[
+{
+  "modid": "actuallycomputers",
+  "name": "ActuallyComputers",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["canitzp"],
+  "credits": "Development: canitzp",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

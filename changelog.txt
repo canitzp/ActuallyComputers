@@ -1,0 +1,7 @@
+1.0.0:
+    -New way to interact with fluid storage blocks.
+    -conversionTime of the Compost is readable
+    -Readable Feeder
+    -Readable Phantomface, all types
+    -Readable XPSolidifier
+    -Readable SmileyCloud
