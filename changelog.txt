@@ -1,3 +1,6 @@
+1.1.0:
+    -granted access to activate the coffee machine
+
 1.0.0:
     -New way to interact with fluid storage blocks.
     -conversionTime of the Compost is readable

@@ -25,8 +25,8 @@ public class ActuallyComputers {
         Driver.add(new Feeder());
         Driver.add(new Phantomface());
         Driver.add(new XPSolidifier());
-        //TODO find out why the smiley clouds are broken with adapter blocks
         Driver.add(new SmileyCloud());
+        Driver.add(new CoffeeMaker());
     }
 
 }

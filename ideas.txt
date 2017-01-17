@@ -1,6 +1,0 @@
-oc integration for:
-	Fluid Collector, Fluid Placer
-		-getFluidType():String name of the Fluid
-		-getFluidAmount():int amount of the stored Fluid
-		-getRedstoneMode():[RedstoneModeApi] get the redstone type
-		-setRedstoneType([RMA]): boolean set correct
