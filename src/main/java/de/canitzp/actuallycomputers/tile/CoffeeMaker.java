@@ -30,7 +30,7 @@ public class CoffeeMaker extends ACDriver<TileEntityCoffeeMachine>{
     }
 
     private static boolean canMakeCoffee(TileEntityCoffeeMachine tile){
-        return StackUtil.isValid(tile.slots[SLOT_INPUT]) && tile.slots[SLOT_INPUT].getItem() == InitItems.itemMisc && tile.slots[SLOT_INPUT].getItemDamage() == TheMiscItems.CUP.ordinal() && !StackUtil.isValid(tile.slots[SLOT_OUTPUT]) && tile.coffeeCacheAmount >= CACHE_USE && tile.tank.getFluid() != null && tile.tank.getFluid().getFluid() == FluidRegistry.WATER && tile.tank.getFluidAmount() >= WATER_USE;
+        return StackUtil.isValid(tile.slots.getStackInSlot(SLOT_INPUT)) && tile.slots.getStackInSlot(SLOT_INPUT).getItem() == InitItems.itemMisc && tile.slots.getStackInSlot(SLOT_INPUT).getItemDamage() == TheMiscItems.CUP.ordinal() && !StackUtil.isValid(tile.slots.getStackInSlot(SLOT_OUTPUT)) && tile.coffeeCacheAmount >= CACHE_USE && tile.tank.getFluid() != null && tile.tank.getFluid().getFluid() == FluidRegistry.WATER && tile.tank.getFluidAmount() >= WATER_USE;
     }
 
     public static final class Env extends ManagedTileEnvironment<TileEntityCoffeeMachine>{

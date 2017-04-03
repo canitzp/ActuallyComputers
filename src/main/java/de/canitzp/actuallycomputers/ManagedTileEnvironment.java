@@ -4,13 +4,13 @@ import de.ellpeck.actuallyadditions.mod.tile.TileEntityBase;
 import li.cil.oc.api.Network;
 import li.cil.oc.api.driver.NamedBlock;
 import li.cil.oc.api.network.Visibility;
-import li.cil.oc.api.prefab.ManagedEnvironment;
+import li.cil.oc.api.prefab.AbstractManagedEnvironment;
 import net.minecraft.util.EnumFacing;
 
 /**
  * @author canitzp
  */
-public class ManagedTileEnvironment<T extends TileEntityBase> extends ManagedEnvironment implements NamedBlock {
+public class ManagedTileEnvironment<T extends TileEntityBase> extends AbstractManagedEnvironment implements NamedBlock {
 
     protected String name;
     protected T tile;

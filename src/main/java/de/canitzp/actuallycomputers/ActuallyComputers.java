@@ -15,7 +15,7 @@ public class ActuallyComputers {
     public static final String MODID = "actuallycomputers";
     public static final String MODNAME = "ActuallyComputers";
     public static final String MODVERSION = "@Version@";
-    public static final String DEPENDENCIES = "required-after:OpenComputers@[1.6,);required-after:actuallyadditions";
+    public static final String DEPENDENCIES = "required-after:opencomputers@[1.7,);required-after:actuallyadditions";
 
     @Optional.Method(modid = "OpenComputers")
     @Mod.EventHandler

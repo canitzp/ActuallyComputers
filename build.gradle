@@ -10,7 +10,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle.forge'
 
 
-version = "1.0.0"
+version = "2.0.0"
 group= "de.canitzp.actuallycomputers"
 archivesBaseName = "actuallycomputers"
 
@@ -20,9 +20,9 @@ compileJava {
 }
 
 minecraft {
-    version = "1.10.2-12.18.2.2099"
+    version = "1.11.2-13.20.0.2262"
     runDir = "run"
-    mappings = "snapshot_20161230"
+    mappings = "snapshot_20170403"
 
     replaceIn "ActuallyComputers.java"
     replace "@Version@", project.version.toString()
@@ -40,8 +40,8 @@ repositories {
 }
 
 dependencies {
-    compile "li.cil.oc:OpenComputers:MC1.10.2-1.6.1.6:api"
-    compile "de.ellpeck.actuallyadditions:ActuallyAdditions-unstable:1.10.2-r75-297"
+    compile "li.cil.oc:OpenComputers:MC1.11.2-1.7.0.6:api"
+    compile "de.ellpeck.actuallyadditions:ActuallyAdditions:1.11.2-r106"
 }
 
 processResources
