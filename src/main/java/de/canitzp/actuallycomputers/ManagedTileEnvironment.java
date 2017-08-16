@@ -30,7 +30,7 @@ public class ManagedTileEnvironment<T extends TileEntityBase> extends AbstractMa
 
     @Override
     public int priority() {
-        return 3;
+        return 5;
     }
 
 }
