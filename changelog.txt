@@ -1,3 +1,14 @@
+2.2.0:
+    - Updated ActuallyAdditions and OpenComputers
+    - Only Minecraft 1.12.2 compatible
+
+2.1.0:
+    - Update to 1.12
+    - Backwards compatible to 1.11
+
+2.0.0:
+    - Update to 1.11
+
 1.1.0:
     -granted access to activate the coffee machine
 

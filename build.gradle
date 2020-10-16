@@ -33,6 +33,7 @@ minecraft {
 
             // Recommended logging level for the console
             property 'forge.logging.console.level', 'debug'
+            property 'fml.coreMods.load', 'li.cil.oc.common.launch.TransformerLoader'
         }
 
         server {
@@ -41,6 +42,7 @@ minecraft {
 
             // Recommended logging level for the console
             property 'forge.logging.console.level', 'debug'
+            property 'fml.coreMods.load', 'li.cil.oc.common.launch.TransformerLoader'
         }
     }
 }

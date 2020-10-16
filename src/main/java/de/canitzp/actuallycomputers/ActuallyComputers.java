@@ -16,7 +16,7 @@ public class ActuallyComputers {
     public static final String MODNAME = "ActuallyComputers";
     public static final String MODVERSION = "@Version@";
     public static final String DEPENDENCIES = "required-after:opencomputers@[1.7,);required-after:actuallyadditions";
-    public static final String MINECRAFT_VERSIONS = "1.11,1.11.2,1.12,1.12.1";
+    public static final String MINECRAFT_VERSIONS = "1.12.2";
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event){
