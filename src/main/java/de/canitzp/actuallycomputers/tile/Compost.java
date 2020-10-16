@@ -7,6 +7,7 @@ import li.cil.oc.api.machine.Arguments;
 import li.cil.oc.api.machine.Callback;
 import li.cil.oc.api.machine.Context;
 import net.minecraft.util.EnumFacing;
+import net.minecraftforge.fml.relauncher.ReflectionHelper;
 
 /**
  * @author canitzp
@@ -28,7 +29,11 @@ public class Compost extends ACDriver<TileEntityCompost>{
         }
         @Callback(doc = "function():number; Returns the time the conversion has done. 3000 is max")
         public Object[] getConversionTime(Context context, Arguments arguments){
-            return new Object[]{tile.conversionTime};
+            return new Object[]{getConverstionTimeSave(tile)};
+        }
+        
+        private static int getConverstionTimeSave(TileEntityCompost tile){
+            return ReflectionHelper.getPrivateValue(TileEntityCompost.class, tile, "conversionTime", null);
         }
     }
 
